@@ -6,6 +6,7 @@
 <%
 	int i;
 	List<GuestbookVo> list = new GuestbookDao().findAll();
+	int count = list.size();
 %>
 
 <html>
@@ -37,7 +38,7 @@
 		<tr>
 			<td>
 			<!-- for, list count or length -= 1 -->
-			<%=	vo.getNo()%>
+			<%=	count--%>
 			</td>
 			<td><%=vo.getName()%></td>
 			<td><%=vo.getReg_date() %></td>
