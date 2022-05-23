@@ -34,9 +34,9 @@
 		</tr>
 	</table>
 	<br/>
-	<img src="http://localhost:8080/helloweb/assets/images/ex3.jpg" style="width:200px" />
-	<img src="/helloweb/assets/images/ex2.jpg" style="width:200px"/>
-	<img src="assets/images/ex1.jpg" style="height:200px"/>
+	<img src="http://localhost:8080/helloweb/assets/images/ex1.jpg" style="height:150px" />
+	<img src="/helloweb/assets/images/ex1.jpg" style="height:150px"/>
+	<img src="assets/images/ex1.jpg" style="height:150px"/>
 	<p>
 		문장 입니다. 
 	</p>
